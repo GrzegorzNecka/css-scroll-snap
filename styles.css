@@ -1,14 +1,11 @@
 html,
 body {
-  height: 100%;
+  overflow: hidden;
+  margin: 0;
 }
 .container {
-  display: flex;
   overflow: auto;
-  outline: 1px dashed lightgray;
-  flex: none;
-  height: 256px;
-  flex-flow: column nowrap;
+  height: 100%;
 }
 
 .container > .item:nth-child(even) {
@@ -21,11 +18,15 @@ body {
 
 .item {
   text-align: center;
-  scroll-snap-align: center;
-  flex: none;
   line-height: 256px;
   font-size: 128px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
   height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*-------------------------------*/
