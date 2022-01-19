@@ -37,5 +37,5 @@ body {
 }
 
 .scroll-snapping > .item {
-  scroll-snap-align: canter; /*start, center, end*/
+  scroll-snap-align: center; /*start, center, end*/
 }
